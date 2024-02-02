@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Educational Website</title>
+    <link rel="stylesheet" href="landing_page.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Educational Website</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="#">Courses</a>
+        <a class="navbar-brand" href="#">About Us</a>
+        <a class="navbar-brand" href="#">Contact</a>
+        <button class="signup-btn btn btn-success" data-toggle="modal" data-target="#signupModal">Sign Up</button>
+    </nav>
+
+    <section class="landing">
+        <h1>Welcome to Your Educational Journey</h1>
+        <p>Discover a world of knowledge and learning. Explore our courses and unlock your potential.</p>
+        <a href="courses.html" class="cta-btn btn btn-primary">Explore Courses</a>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 feature-item">
+                    <h3>Interactive Learning</h3>
+                    <p>Engage in interactive lessons and activities designed for effective learning.</p>
+                </div>
+                <div class="col-lg-4 feature-item">
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from industry experts with real-world experience in their respective fields.</p>
+                </div>
+                <div class="col-lg-4 feature-item">
+                    <h3>Flexible Schedule</h3>
+                    <p>Access courses at your own pace and schedule, fitting into your busy lifestyle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <div class="row">
+                <div class="col-lg-4 testimonial">
+                    <p>"Amazing platform! I gained valuable skills that boosted my career."</p>
+                    <cite>- John Doe</cite>
+                </div>
+                <div class="col-lg-4 testimonial">
+                    <p>"The courses are well-structured and easy to follow. Highly recommended!"</p>
+                    <cite>- Jane Smith</cite>
+                </div>
+                <div class="col-lg-4 testimonial">
+                    <p>"I appreciate the quality content and the supportive community. Thank you!"</p>
+                    <cite>- Alex Johnson</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="modal" id="signupModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                
+                <div class="modal-header">
+                    <h4 class="modal-title">Sign Up for Exclusive Access</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                
+                <div class="modal-body">
+                    
+                    <p>Sign up form goes here...</p>
+                </div>
+
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Sign Up</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
